@@ -10,3 +10,6 @@ twitter: https://twitter.com/hyphacoop/
 exclude:
 # Avoid sending unencrypted private deploy key data.
 - scripts/
+# For building on TravisCI.
+# See: https://jekyllrb.com/docs/continuous-integration/travis-ci/
+- vendor/
