@@ -63,6 +63,13 @@
 
   <div class="social-icons">
     <ul class="list-unstyled text-center mb-0">
+      {% if site.github %}
+      <li class="list-unstyled-item">
+        <a href="{{ site.github }}">
+          <i class="fab fa-github-alt"></i>
+        </a>
+      </li>
+      {% endif %}
       {% if site.linkedin %}
       <li class="list-unstyled-item">
         <a href="{{ site.linkedin }}">
