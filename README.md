@@ -2,14 +2,14 @@
 
 [![Build Status](https://travis-ci.org/hyphacoop/hypha.coop.svg?branch=master)](https://travis-ci.org/hyphacoop/hypha.coop)
 
-This repository holds the source code and static assets of [hypha.coop][website]. Based on a modified version of an existing template codebase (see below).
+This repository holds the source code and static assets of [hypha.coop][website]. It's a fork of another theme (see below).
 
-## Technologies Used
+## :hammer_and_wrench: Technologies Used
 
-- [**Bootstrap.**][bootstrap]
-  - [**Template: Coming Soon.**][template] a simple coming soon theme created by [Start Bootstrap][start-bootstrap].
-- [**Jekyll.**][jekyll]
-- [**Travis CI**.][travis]
+- [**Bootstrap.**][bootstrap] Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.
+  - [**Theme: Coming Soon.**][template] a simple coming soon theme created by [Start Bootstrap][start-bootstrap].
+- [**Jekyll.**][jekyll] A static website generator.
+- [**Travis CI**.][travis] Free cloud testing environment used for test and deploy.
 
 ## :computer: Development
 
@@ -27,7 +27,7 @@ We auto-deploy `master` branch to [hypha.coop][website] via Travis CI. (See [`.t
 
 Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](./LICENSE) license.
 
-Additional customizations by [@ASoTNetworks](https://github.com/ASoTNetworks) and [@patcon](https://github.com/patcon).
+Additional customizations by ASoTNetworks, patcon.
 
 <!-- Links -->
    [website]: https://hypha.coop
