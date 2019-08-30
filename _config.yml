@@ -1,4 +1,16 @@
 title: Hypha Worker Co-operative
+email: hello@hypha.coop
+phone: +1 437-887-6936
+address: Toronto, ON
+github: https://github.com/hyphacoop
 linkedin: https://www.linkedin.com/company/hyphacoop/
-twitter: https://twitter.com/hyphacoop
+twitter: https://twitter.com/hyphacoop/
 # facebook: https://www.facebook.com/hyphacoop/
+# instagram: https://instagram.com/hyphacoop/
+
+exclude:
+# Avoid sending unencrypted private deploy key data.
+- scripts/
+# For building on TravisCI.
+# See: https://jekyllrb.com/docs/continuous-integration/travis-ci/
+- vendor/bundle

@@ -37,11 +37,16 @@ video {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   z-index: 0;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
 }
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: url("../img/bg-mobile-fallback.jpg") #002E66 no-repeat center center scroll;
+    background: url("../img/bg-screenshot.jpg") #002E66 no-repeat center center scroll;
     background-position: cover;
   }
   body video {
@@ -76,7 +81,7 @@ video {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: #000;
   -webkit-transform: skewY(4deg);
   transform: skewY(4deg);
   -webkit-transform-origin: bottom right;
@@ -93,6 +98,12 @@ video {
 
 .masthead .masthead-content p strong {
   font-weight: 700;
+}
+
+.masthead .masthead-content img {
+  height: 120px;
+  float: right;
+  padding-right: 50px;
 }
 
 .masthead .masthead-content .input-group-newsletter input {
@@ -157,7 +168,7 @@ video {
 .social-icons ul > li > a {
   display: block;
   color: white;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: #000;
   border-radius: 100%;
   font-size: 2rem;
   line-height: 4rem;
@@ -211,4 +222,13 @@ video {
 
 .input {
   font-weight: 300 !important;
+}
+
+#contact a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#contact #phone a {
+  text-decoration: none;
 }
