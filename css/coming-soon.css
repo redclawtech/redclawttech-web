@@ -232,3 +232,8 @@ video {
 #contact #phone a {
   text-decoration: none;
 }
+
+#corporation-details {
+  position: absolute;
+  bottom: 0;
+}
