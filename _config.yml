@@ -1,7 +1,7 @@
-title: Hypha Worker Co-operative
+title: RedClaw Technologies
 email: info [at] redclawtech [dot] com
 email-hidden: "%68%65%6c%6c%6f%40%68%79%70%68%61%2e%63%6f%6f%70"
-phone: +1-437-887-6936
+phone: +1-727-488-9109
 address: Largo, Florida
 github: https://github.com/redclawtech
 linkedin: https://www.linkedin.com/company/redclawtech/
@@ -12,8 +12,6 @@ twitter: https://twitter.com/hyphacoop/
 footer: RedClaw Technologies LLC.
 
 exclude:
-# Avoid sending unencrypted private deploy key data.
-- scripts/
 # For building on TravisCI.
 # See: https://jekyllrb.com/docs/continuous-integration/travis-ci/
 - vendor/bundle
