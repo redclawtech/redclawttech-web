@@ -1,7 +1,5 @@
 # redclawtech.com
 
-[![Build Status](https://travis-ci.org/hyphacoop/hypha.coop.svg?branch=master)](https://travis-ci.org/hyphacoop/hypha.coop)
-
 This repository holds the source code and static assets of [redclawtech.com][website]. It's a fork of another theme (see below).
 
 ## :hammer_and_wrench: Technologies Used
@@ -18,10 +16,6 @@ This repository holds the source code and static assets of [redclawtech.com][web
 3. Install dependancies: `bundle install`
 4. Run locally: `bundle exec jekyll serve`
 5. Visit your `localhost` on port `4000`: http://localhost:4000 or http://127.0.0.1:4000
-
-## :rocket: Deployment
-
-We auto-deploy `master` branch to [redclawtech.com][website] via Travis CI. (See [`.travis.yml`][ci-conf])
 
 ## :copyright: License & Copyright
 
