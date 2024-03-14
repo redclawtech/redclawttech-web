@@ -1,146 +1,53 @@
----
----
-<!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>RedClaw Tech | building powerful web-based systems</title>
+        <link rel="stylesheet" type="text/css" href="assets/main.css" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="noindex" />
+        <meta
+            name="description"
+            content="RedClaw Tech designs and develops simple and powerful web applications."
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="bg">
+                <header>
+                    <h1>
+                        We are <strong>RedClaw Tech</strong> and we tenaciously
+                        craft simple and powerful digital products.
+                    </h1>
+                </header>
 
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>{{ site.title }} - {{ site.tagline }}</title>
-  {% seo %}
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/coming-soon.css" rel="stylesheet">
-
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-  <!-- Start of Async Drift Code -->
-  <script>
-  "use strict";
-  
-  !function() {
-    var t = window.driftt = window.drift = window.driftt || [];
-    if (!t.init) {
-      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-      t.factory = function(e) {
-        return function() {
-          var n = Array.prototype.slice.call(arguments);
-          return n.unshift(e), t.push(n), t;
-        };
-      }, t.methods.forEach(function(e) {
-        t[e] = t.factory(e);
-      }), t.load = function(t) {
-        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-        var i = document.getElementsByTagName("script")[0];
-        i.parentNode.insertBefore(o, i);
-      };
-    }
-  }();
-  drift.SNIPPET_VERSION = '0.3.1';
-  drift.load('c7bx5i8pv949');
-  </script>
-
-</head>
-
-<body>
-
-  <video playsinline="playsinline" poster="img/bg-screenshot.jpg" autoplay="autoplay" muted="muted" loop="loop">
-  </video>
-
-  <div class="masthead">
-    <div class="masthead-bg"></div>
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-12 my-auto">
-          <div class="masthead-content text-white py-5 py-md-0">
-            <h1 class="mb-0">RedClaw</h1>
-            <h2 class="mb-3 font-weight-normal">TECHNOLOGIES</h2>
-            <p class="mb-5">We are the partner to help solve your problems around real-time and high concurrency web systems with Erlang/OTP, Elixir, Golang and Python.</p>
-            <div id="contact" class="smaller">
-              <span id="phone"><i class="fas fa-phone mr-1"></i> <a href="tel:{{ site.phone }}">{{ site.phone }}</a></span><br />
-              <span id="email"><i class="fas fa-envelope mr-1"></i> <a href="{{ site.email-hidden }}">{{ site.email }}</a></span><br />
-              <span id="address"><i class="fas fa-globe-americas mr-1"></i> {{ site.address }}</span>
+                <main>
+                    <p>
+                        We stand for practical functionality and clean design in
+                        our products. We believe all the beauty lies in
+                        simplicity.
+                    </p>
+                    <p>
+                        Read more about us on
+                        <a href="/blog">our blog</a> or
+                        <a href="mailto:info@redclawtech.com"
+                            >send us an email</a
+                        >.
+                    </p>
+                </main>
+                <footer>
+                    <div class="vcard">
+                        <div class="adr">
+                            <span class="fn org">RedClaw Technologies LLC</span>
+                        </div>
+                        <div>
+                            <span>Made with love in 🌎</span>
+                            -
+                            <span>We respect your privacy.</span>
+                        </div>
+                    </div>
+                </footer>
             </div>
-            {% if site.show_form %}
-            <div class="input-group input-group-newsletter">
-              <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon">
-              <div class="input-group-append">
-                <button class="btn btn-secondary" type="button">Notify Me!</button>
-              </div>
-            </div>
-            {% endif %}
-          </div>
         </div>
-        <div id="corporation-details" class="col-12 pl-3 mb-3">
-          <span class="text-white small mb-3">{{ site.footer }}</span>
-        </div>
-      </div>
-    </div>
-    <div class="masthead-credit position-absolute text-nowrap pl-3"><p class="text-white small">Photo by <a href="https://unsplash.com/@dilucidus" class="text-white" target="_blank">Kai Dahms</a> on <a href="https://unsplash.com/photos/w1Qs3z84cwk" class="text-white" target="_blank">Unsplash</a></p></div>
-  </div>
-
-  <div class="social-icons">
-    <ul class="list-unstyled text-center mb-0">
-      {% if site.github %}
-      <li class="list-unstyled-item">
-        <a href="{{ site.github }}">
-          <i class="fab fa-github-alt"></i>
-        </a>
-      </li>
-      {% endif %}
-      {% if site.linkedin %}
-      <li class="list-unstyled-item">
-        <a href="{{ site.linkedin }}" data-proofer-ignore>
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-      {% endif %}
-      {% if site.twitter %}
-      <li class="list-unstyled-item">
-        <a href="https://twitter.com/{{ site.twitter.username }}">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-      {% endif %}
-      {% if site.handbook %}
-      <li class="list-unstyled-item">
-        <a href="{{ site.handbook }}">
-          <i class="fas fa-book"></i>
-        </a>
-      </li>
-      {% endif %}
-      {% if site.facebook %}
-      <li class="list-unstyled-item">
-        <a href="{{ site.facebook }}">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-      </li>
-      {% endif %}
-      {% if site.instagram %}
-      <li class="list-unstyled-item">
-        <a href="{{ site.instagram }}">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </li>
-      {% endif %}
-    </ul>
-  </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/coming-soon.min.js"></script>
-
-</body>
-
+    </body>
 </html>
