@@ -3,6 +3,7 @@
     --text-color: #555;
     --text-accent: #444;
     --primary-color: #c65631;
+    --product-default-color: ffe6a4;
 }
 
 * {
@@ -107,7 +108,7 @@ main {
         line-height: 27px;
     }
 
-    div.products {
+    .products {
         display: flex;
         flex-direction: column;
         gap: 15px;
@@ -134,6 +135,7 @@ main {
                 width: 450px;
                 max-width: 100%;
                 border: 1px solid transparent;
+                border-color: var(--product-default-color);
 
                 .overlay {
                     position: absolute;
@@ -143,6 +145,7 @@ main {
                     height: 100%;
                     opacity: 0.2;
                     z-index: -1;
+                    background-color: var(--product-default-color);
                 }
 
                 .icon {
